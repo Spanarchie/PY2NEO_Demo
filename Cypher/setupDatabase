@@ -1,0 +1,5 @@
+
+from py2neo import neo4j
+
+graph_db = neo4j.GraphDatabaseService()
+print(graph_db.neo4j_version)
