@@ -1,7 +1,6 @@
 __author__ = 'colinmoore-hill'
 
-
-from behave import *
+# ----------------------------------------------------------------------------
 
 @given('we have behave installed')
 def step_impl(context):
